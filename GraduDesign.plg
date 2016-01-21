@@ -1,0 +1,61 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: GraduDesign - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\zxw\AppData\Local\Temp\RSPCF30.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/GraduDesign.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\毕业设计\代码\GraduDesign\SetDefData.cpp"
+]
+Creating command line "cl.exe @C:\Users\zxw\AppData\Local\Temp\RSPCF30.tmp" 
+Creating temporary file "C:\Users\zxw\AppData\Local\Temp\RSPCF31.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/GraduDesign.pdb" /debug /machine:I386 /out:"Debug/GraduDesign.exe" /pdbtype:sept 
+".\Debug\CreateGraph.obj"
+".\Debug\Floor.obj"
+".\Debug\GraduDesign.obj"
+".\Debug\GraduDesignDoc.obj"
+".\Debug\GraduDesignView.obj"
+".\Debug\MainFrm.obj"
+".\Debug\SetDefData.obj"
+".\Debug\Shelter.obj"
+".\Debug\StdAfx.obj"
+".\Debug\GraduDesign.res"
+]
+Creating command line "link.exe @C:\Users\zxw\AppData\Local\Temp\RSPCF31.tmp"
+<h3>Output Window</h3>
+Compiling...
+SetDefData.cpp
+E:\毕业设计\代码\GraduDesign\SetDefData.cpp(247) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+E:\毕业设计\代码\GraduDesign\SetDefData.cpp(544) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+E:\毕业设计\代码\GraduDesign\SetDefData.cpp(545) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+E:\毕业设计\代码\GraduDesign\SetDefData.cpp(527) : warning C4101: 'j' : unreferenced local variable
+E:\毕业设计\代码\GraduDesign\SetDefData.cpp(1015) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+Linking...
+Creating temporary file "C:\Users\zxw\AppData\Local\Temp\RSPD27D.tmp" with contents
+[
+/nologo /o"Debug/GraduDesign.bsc" 
+".\Debug\StdAfx.sbr"
+".\Debug\CreateGraph.sbr"
+".\Debug\Floor.sbr"
+".\Debug\GraduDesign.sbr"
+".\Debug\GraduDesignDoc.sbr"
+".\Debug\GraduDesignView.sbr"
+".\Debug\MainFrm.sbr"
+".\Debug\SetDefData.sbr"
+".\Debug\Shelter.sbr"]
+Creating command line "bscmake.exe @C:\Users\zxw\AppData\Local\Temp\RSPD27D.tmp"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+GraduDesign.exe - 0 error(s), 5 warning(s)
+</pre>
+</body>
+</html>
